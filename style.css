@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(0, 162, 255);
+}
+
+header{
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 50px;
+    box-shadow: 0px 3 px 6px black;
+}
+
+h2{
+    font-weight: 900;
+}
+
+#wear, #eat{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 5vw;
+} 
+
+#wash, #stay, #work{
+    display: flex;
+    flex-direction: row-reverse;
+    align-content: center;
+    justify-content: center;
+    padding: 5vw;
+}
+
+img{
+    width: 350px;
+    height: 200px;
+}
